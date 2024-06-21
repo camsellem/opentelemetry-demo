@@ -24,6 +24,8 @@ const {
   OTEL_EXPORTER_OTLP_TRACES_ENDPOINT = '',
   OTEL_SERVICE_NAME = 'frontend',
   PUBLIC_OTEL_EXPORTER_OTLP_TRACES_ENDPOINT = '',
+  GRAFANA_FARO_APPNAME = '',
+  GRAFANA_FARO_ENDPOINT = ''
 } = process.env;
 
 const nextConfig = {

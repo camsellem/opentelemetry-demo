@@ -21,6 +21,8 @@ declare global {
       NEXT_PUBLIC_OTEL_SERVICE_NAME?: string;
       NEXT_PUBLIC_OTEL_EXPORTER_OTLP_TRACES_ENDPOINT?: string;
       IS_SYNTHETIC_REQUEST?: string;
+      NEXT_GRAFANA_FARO_APPNAME?: string;
+      NEXT_GRAFANA_FARO_ENDPOINT?: string;
     };
   }
 }
