@@ -282,6 +282,8 @@ services:
       - OTEL_COLLECTOR_HOST
       - FLAGD_HOST
       - FLAGD_PORT
+      - GRAFANA_FARO_APPNAME
+      - GRAFANA_FARO_ENDPOINT
     depends_on:
       adservice:
         condition: service_started

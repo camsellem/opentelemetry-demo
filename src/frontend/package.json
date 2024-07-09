@@ -11,6 +11,8 @@
     "grpc:generate": "mkdir -p ./protos && protoc -I ./pb  --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_opt=esModuleInterop=true --ts_proto_out=./protos --ts_proto_opt=outputServices=grpc-js demo.proto"
   },
   "dependencies": {
+    "@grafana/faro-web-sdk": "^1.7.3",
+    "@grafana/faro-web-tracing": "^1.7.3",
     "@grpc/grpc-js": "1.10.8",
     "@openfeature/flagd-provider": "0.13.0",
     "@openfeature/flagd-web-provider": "0.7.1",
